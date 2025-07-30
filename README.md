@@ -21,7 +21,48 @@ Candy distributors like Treat Link need to understand which products are selling
 
 **Data Modeling & Relationships**
 - **Multi-Table Structure:** Connected 5 different data tables properly
--  **Star Schema Design:** Organized data with fact tables and dimension tables
--  **Relationship Building:** Created logical connections between tables using keys
--  **Date Intelligence:** Built calendar table for time-based analysis
--  **Data Quality:** Ensured clean, consistent data across all tables
+- **Star Schema Design:** Organized data with fact tables and dimension tables
+- **Relationship Building:** Created logical connections between tables using keys
+- **Date Intelligence:** Built a calendar table for time-based analysis
+- **Data Quality:** Ensured clean, consistent data across all tables
+
+## Data Model Structure
+![Data Model](https://github.com/nidhip1/PowerBI-Sales-Performance-Dashboard/blob/main/Data_Model.png)
+
+### Main Tables & How They Connect:
+1. **FTSales(Fact Table)**- The main sales data containing: 
+- Sales amounts, costs, and profit information
+- Order details and customer information
+- Links to all other tables through ID fields
+
+2. **DimProducts**- Product information including:
+- Product names
+- Product costs and pricing
+- Connected to sales through Product ID
+
+3. **DimFactories**- Factory location data:
+- Factory locations and coordinates
+- Linked to products to show where the candy is made
+
+4. **DimTargets**- Sales target information:
+- Target numbers for each division
+- Used to compare actual vs. expected performance
+
+5. **Calendar Table**-  Date information for time analysis:
+- Months, quarters, years, and days details
+- Enables time-based filtering and trends
+
+### Key Relationships:
+- **FTSales ↔ DimProducts:** Connected by Product ID (shows which products were sold)
+- **FTSales ↔ DimTargets:** Connected by Division (compares actual vs. target sales)
+- **FTSales ↔ Calendar:** Connected by Order Date (enables time-based analysis)
+- **DimProducts ↔ DimFactories:** Connected by Factory (shows product origins)
+
+## What I Analyzed
+**Main Business Numbers**
+- **Total Sales:** $141.8K across all products
+- **Gross Profit:** $93.4K with healthy 65.9% profit margin
+- **Order Volume:** 9K total orders processed
+- **Average Order:** $16.6 per order
+- **Time Period:** 4 years of sales data (2021-2024)
+
