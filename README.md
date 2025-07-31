@@ -148,3 +148,7 @@ TreatLinkSalesAnalytics/
 - **DAX (Data Analysis Expressions):** Custom formulas and calculations
 - **Power Query:** Data cleaning and transformation
 - **Data Modeling:** Relationship building and table connections
+
+## Connect with me
+[LinkedIn](www.linkedin.com/in/nidhi-parikh19)
+
