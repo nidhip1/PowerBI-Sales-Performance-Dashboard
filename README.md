@@ -34,20 +34,16 @@ Candy distributors like Treat Link need to understand which products are selling
 - Sales amounts, costs, and profit information
 - Order details and customer information
 - Links to all other tables through ID fields
-
 2. **DimProducts**- Product information including:
 - Product names
 - Product costs and pricing
 - Connected to sales through Product ID
-
 3. **DimFactories**- Factory location data:
 - Factory locations and coordinates
 - Linked to products to show where the candy is made
-
 4. **DimTargets**- Sales target information:
 - Target numbers for each division
 - Used to compare actual vs. expected performance
-
 5. **Calendar Table**-  Date information for time analysis:
 - Months, quarters, years, and days details
 - Enables time-based filtering and trends
@@ -66,3 +62,62 @@ Candy distributors like Treat Link need to understand which products are selling
 - **Average Order:** $16.6 per order
 - **Time Period:** 4 years of sales data (2021-2024)
 
+**Product Performance**
+- **Top Performers:** Wonka Bar products dominate sales
+- **Category Analysis:** Chocolate products significantly outperform targets (37K vs 27K target)
+- **Underperformers:** Sugar-based products consistently miss targets
+- **Profit Leaders:** Triple Dazzle Caramel and Scrumpdiddlyumptious lead profitability
+
+## Dashboard Features & What You Can See
+1. **Executive Summary (Top Cards)**
+- Shows the 5 most important business numbers at a glance
+- Includes month-over-month change indicators
+- Colour-coded to show positive (green) and negative (red) trends
+2. **Time-Based Analysis**
+- **Monthly Profit Trends:** Line chart showing profit patterns throughout the year
+- **Seasonal Insights:** September shows consistent profit peaks
+- **Growth Tracking:** Monitors performance changes over time
+3. **Product Performance Analysis**
+- **Profitability vs. Volume** Scatter plot showing which products are both popular AND profitable
+- **Interactive Switching:** Special feature with buttons to switch between two different visuals (Orders by Country/Region and Shipping Mode)
+-  **Bubble Chart:** Size represents sales volume, position shows profitability
+4. **Target vs. Actual Comparison**
+- **Division Performance:** Bar charts comparing planned vs. actual sales
+- **Performance Gaps:** Clearly shows which areas exceed or miss targets
+- **Visual Indicators:** Easy-to-spot over/under performance
+5. **Shipping & Operations**
+- **Shipping Mode Preferences:** Standard Class dominates customer preferences (5.1K orders)
+- **Operational Insights:** Helps optimize shipping and delivery strategies
+6. Detailed Product Analysis (Page 2)
+- **Complete Product List:** Every Treat Link candy product with sales and profit details
+- **Sales Attainment:** Percentage showing how each product performs against goals
+- **Key Takeaways Panel:** Strategic recommendations specifically for Treat Link's operations
+
+## Special Interactive Features
+### Dynamic Visual Switching
+- **Bottom Right Corner:** Two buttons that let users switch between different chart views
+- **Seamless Transition:** Click buttons to see the same data in different visual formats
+- **User Control:** Gives viewers choice in how they want to see the information
+### Smart Filtering
+- **Year Filter:** Dropdown to analyze specific years or all years combined
+- **Quarter Filter:** Focus on seasonal performance
+- **Division Filter:** Deep-dive into specific business divisions
+- **Connected Visuals:** All charts update together when filters change
+
+## Skills I Showed
+- **Power BI Mastery:** Advanced dashboard creation with professional design
+- **Data Modeling:** Proper table relationships and data structure
+- **DAX Formulas:** Custom calculations for business metrics
+- **Visual Design:** Clean, professional layout that's easy to understand
+- **User Experience:** Interactive features that make exploration intuitive
+- **Business Analysis:** Turning data into actionable business insights
+- **Storytelling:** Presenting data in a way that tells a clear business story
+
+## Key Findings
+### What I Discovered
+- **Seasonal Patterns:** September consistently shows the highest profits
+- **Product Success:** Wonka Bar products are clear winners in both sales and profit
+- **Division Performance:** The Chocolate division exceeds targets, while the Sugar division struggles
+- **Customer Preferences:** 5.1K customers prefer Standard Class shipping
+- **Profit Health:** Strong 65.9% overall profit margin indicates a healthy business
+- **Growth Opportunity:** Treat Link's Sugar products need strategic review and repositioning
