@@ -121,3 +121,30 @@ Candy distributors like Treat Link need to understand which products are selling
 - **Customer Preferences:** 5.1K customers prefer Standard Class shipping
 - **Profit Health:** Strong 65.9% overall profit margin indicates a healthy business
 - **Growth Opportunity:** Treat Link's Sugar products need strategic review and repositioning
+
+## Project Structure
+```
+TreatLinkSalesAnalytics/
+├── Dashboard Pages/
+│   ├── Overview (Main KPI dashboard)
+│   └── Product Details (Detailed analysis)
+├── Data Model/
+│   ├── FTSales (Main sales fact table)
+│   ├── DimProducts (Product master data)
+│   ├── DimFactories (Location data)
+│   ├── DimTargets (Sales targets)
+│   └── Calendar (Date dimension)
+├── DAX Measures/
+│   ├── Profit calculations
+│   ├── Growth rate formulas
+│   └── Target comparison metrics
+└── Visualizations/
+    ├── Interactive charts
+    ├── KPI cards
+    └── Custom buttons
+```
+## Tools I Used
+- **Microsoft Power BI Desktop:** Main dashboard creation tool
+- **DAX (Data Analysis Expressions):** Custom formulas and calculations
+- **Power Query:** Data cleaning and transformation
+- **Data Modeling:** Relationship building and table connections
