@@ -68,6 +68,9 @@ Candy distributors like Treat Link need to understand which products are selling
 - **Underperformers:** Sugar-based products consistently miss targets
 - **Profit Leaders:** Triple Dazzle Caramel and Scrumpdiddlyumptious lead profitability
 
+## Dashboard Preview
+https://github.com/user-attachments/assets/c9919ff4-ddbd-4cc9-b556-dbf6254574dc
+
 ## Dashboard Features & What You Can See
 1. **Executive Summary (Top Cards)**
 - Shows the 5 most important business numbers at a glance
@@ -97,7 +100,7 @@ Candy distributors like Treat Link need to understand which products are selling
 ### Dynamic Visual Switching
 - **Bottom Right Corner:** Two buttons that let users switch between different chart views
 - **Seamless Transition:** Click buttons to see the same data in different visual formats
-- **User Control:** Gives viewers choice in how they want to see the information
+- **User Control:** Gives viewers a choice in how they want to see the information
 ### Smart Filtering
 - **Year Filter:** Dropdown to analyze specific years or all years combined
 - **Quarter Filter:** Focus on seasonal performance
