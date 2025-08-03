@@ -1,5 +1,8 @@
 # Candy Sales Analytics Dashboard - Power BI Portfolio Project
 
+## Dashboard Preview
+https://github.com/user-attachments/assets/c9919ff4-ddbd-4cc9-b556-dbf6254574dc
+
 ## Project Overview
 This Power BI project analyzes sales data for Treat Link, a US-based candy distributor business, from 2021-2024. I created an interactive dashboard that helps business owners understand their sales performance, track profit margins, and make data-driven decisions about their candy products. The dashboard shows key business metrics and trends in an easy-to-understand visual format for this fictitious company scenario.
 
@@ -67,9 +70,6 @@ Candy distributors like Treat Link need to understand which products are selling
 - **Category Analysis:** Chocolate products significantly outperform targets (37K vs 27K target)
 - **Underperformers:** Sugar-based products consistently miss targets
 - **Profit Leaders:** Triple Dazzle Caramel and Scrumpdiddlyumptious lead profitability
-
-## Dashboard Preview
-https://github.com/user-attachments/assets/c9919ff4-ddbd-4cc9-b556-dbf6254574dc
 
 ## Dashboard Features & What You Can See
 1. **Executive Summary (Top Cards)**
